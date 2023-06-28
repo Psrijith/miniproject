@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2021/04/my-best-casette-playlist-4k_1618133576.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding-top: 50px;
+  font-family: sans-serif;
+  color: #383737;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.box {
+  background-color: #be52cc;
+  height: 150px;
+  width: 300px;
+  padding: 20px;
+  font-size: 24px;
+  opacity: 0.75;
+  color: white;
+  line-height: 110px;
+  margin: 10px;
+  border: 2px solid #52734d;
+  border-radius: 10%;
+}
+
+.box:hover {
+  background-color: #4559b1;
+  transition-duration: 1s;
+}
+
+input[type=radio]:checked + .box {
+  background-color: #52734d;
+  color: white;
+  transition-duration: 1s;
+}
+
+.btn {
+  width: 160px;
+  height: 32px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+	
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  .btn {
+    width: 120px;
+    height: 24px;
+  }
+}
+
+/* Medium devices (576px - 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+  .btn {
+    width: 140px;
+    height: 28px;
+  }
+}
+
+/* Large devices (768px and above) */
+@media (min-width: 768px) {
+  .btn {
+    width: 160px;
+    height: 32px;
+  }
+}
+
+
+@media (max-width: 768px) {
+        .btn-3 {
+          margin-top: 20px;
+        }
+      }
